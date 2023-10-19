@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DemoBlaze FrameWork Hybrid Tests">
+
+<listeners>
+    <listener class-name="com.qa.demoblaze.listeners.DemoBlaze_Listeners"/>
+</listeners>
+  
+  <test  name="DemoBlaze Batch Tests">
+    <classes>
+      <class name="com.qa.demoblaze.testcases.DemoBlaze_Landing_Test"/>
+      <class name="com.qa.demoblaze.testcases.DemoBlaze_LogIn_Test"/>
+      <class name="com.qa.demoblaze.testcases.DemoBlaze_LogOut_Test"/>
+       <class name="com.qa.demoblaze.testcases.DemoBlaze_Registration_Test"/>
+      <class name="com.qa.demoblaze.testcases.DemoBlaze_Links_Test"/>
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
